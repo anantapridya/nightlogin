@@ -8,7 +8,7 @@ import line from '../assets/images/line.svg'
 
 export default function Footer() {
   return (
-    <div>
+    <footer>
         <div className='bg-[#242424] flex items-center justify-center py-[54px]'>
             <img src={logo} className='h-[69px]'></img>
             <div className='ml-[15px]'>
@@ -22,6 +22,6 @@ export default function Footer() {
             </div>
         </div>
         <div className='flex justify-center bg-[#D62340] text-white font-poppins text-[12px] font-semibold py-[8px]'>©2022 by Night Login DTETI FT UGM</div>
-    </div>
+    </footer>
   )
 }
