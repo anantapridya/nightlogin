@@ -172,8 +172,8 @@ export default function Home() {
         </div>
       </div>
       <div className="flex justify-between mt-[120px] ">
-        <img src={homeleft} className="w-[200px] md:w-[300px] lg:w-auto"></img>
-        <img src={homeright} className="w-[200px] md:w-[300px] lg:w-auto"></img>
+        <img src={homeleft} className="w-[150px] md:w-[300px] lg:w-auto"></img>
+        <img src={homeright} className="w-[150px] md:w-[300px] lg:w-auto"></img>
       </div>
       <Footer />
     </main>
