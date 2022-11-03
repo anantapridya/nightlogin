@@ -26,7 +26,7 @@ export default function Navbar() {
         >
           <NavDropdown.Item>
             <Link
-              to="/NWDC"
+              to="/nwdc"
               className="no-underline text-black font-poppins font-semibold text-[16px]"
             >
               NWDC
@@ -34,7 +34,7 @@ export default function Navbar() {
           </NavDropdown.Item>
           <NavDropdown.Item>
             <Link
-              to="/NUXC"
+              to="/nuxc"
               className="no-underline text-black font-poppins font-semibold text-[16px]"
             >
               NUXC
@@ -42,7 +42,7 @@ export default function Navbar() {
           </NavDropdown.Item>
           <NavDropdown.Item>
             <Link
-              to="/NADC"
+              to="/nadc"
               className="no-underline text-black font-poppins font-semibold text-[16px]"
             >
               NADC
@@ -50,7 +50,7 @@ export default function Navbar() {
           </NavDropdown.Item>
           <NavDropdown.Item>
             <Link
-              to="/NDDC"
+              to="/nddc"
               className="no-underline text-black font-poppins font-semibold text-[16px]"
             >
               NDDC
@@ -58,7 +58,7 @@ export default function Navbar() {
           </NavDropdown.Item>
           <NavDropdown.Item>
             <Link
-              to="/NLNC"
+              to="/nlnc"
               className="no-underline text-black font-poppins font-semibold text-[16px]"
             >
               NLNC
@@ -66,7 +66,7 @@ export default function Navbar() {
           </NavDropdown.Item>
           <NavDropdown.Item>
             <Link
-              to="/NCPC"
+              to="/ncpc"
               className="no-underline text-black font-poppins font-semibold text-[16px]"
             >
               NCPC
