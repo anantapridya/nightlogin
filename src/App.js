@@ -15,12 +15,12 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/aboutUs" element={<Home />} />
 
-            <Route path="/NWDC" element={<Nwdc />} />
-            <Route path="/NUXC" element={<Nwdc />} />
-            <Route path="/NADC" element={<Nwdc />} />
-            <Route path="/NDDC" element={<Nwdc />} />
-            <Route path="/NLNC" element={<Nwdc />} />
-            <Route path="/NCPC" element={<Nwdc />} />
+            <Route path="/nwdc" element={<Nwdc />} />
+            <Route path="/nuxc" element={<Nwdc />} />
+            <Route path="/nadc" element={<Nwdc />} />
+            <Route path="/nddc" element={<Nwdc />} />
+            <Route path="/nlnc" element={<Nwdc />} />
+            <Route path="/ncpc" element={<Nwdc />} />
           </Routes>
         </div>
       </div>
