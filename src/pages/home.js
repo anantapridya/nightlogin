@@ -17,9 +17,8 @@ import Footer from "../components/footer";
 import HomeCommunities from "../components/homecommunitites.js";
 import items from "../components/communitiesdata";
 import HomeCarousel from "../components/homecarousel";
-import homeleft from '../assets/images/btmhomeleft.svg'
-import homeright from '../assets/images/btmhomeright.svg'
-
+import homeleft from "../assets/images/btmhomeleft.svg";
+import homeright from "../assets/images/btmhomeright.svg";
 
 export default function Home() {
   const [communityitem, setCommunity] = useState(items);
@@ -27,7 +26,7 @@ export default function Home() {
     <main>
       <div className="h-[100vh] flex flex-col justify-between w-full">
         <div>
-          <Navbar />
+          {/* <Navbar /> */}
           <img src={bg1} className="w-[200px] xl:w-auto md:w-[300px]"></img>
         </div>
         <div className="flex justify-center flex-col items-center">
@@ -165,7 +164,10 @@ export default function Home() {
 
       <div className="flex flex-col mt-[100px] justify-center">
         <div className="grid">
-          <img src={ourmember} className="justify-self-center w-[315px] md:w-auto"></img>
+          <img
+            src={ourmember}
+            className="justify-self-center w-[315px] md:w-auto"
+          ></img>
         </div>
         <div>
           <HomeCarousel />
