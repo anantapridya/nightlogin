@@ -15,13 +15,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/aboutUs" element={<Home />} />
-
-            <Route path="/nw" element={<Nwdc />} />
-            <Route path="/nuxc" element={<Nwdc />} />
-            <Route path="/nadc" element={<Nwdc />} />
-            <Route path="/nddc" element={<Nwdc />} />
-            <Route path="/nlnc" element={<Nwdc />} />
-            <Route path="/ncpc" element={<Nwdc />} />
             <Route path="/communities/:id" element={<CommunitiesPage />} />
           </Routes>
         </div>
