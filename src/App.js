@@ -4,6 +4,7 @@ import Footer from "./components/footer";
 import Home from "./pages/home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Nwdc from "./pages/nwdc";
+import CommunitiesPage from "./pages/communitiesPage";
 
 function App() {
   return (
@@ -15,12 +16,13 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/aboutUs" element={<Home />} />
 
-            <Route path="/nwdc" element={<Nwdc />} />
+            <Route path="/nw" element={<Nwdc />} />
             <Route path="/nuxc" element={<Nwdc />} />
             <Route path="/nadc" element={<Nwdc />} />
             <Route path="/nddc" element={<Nwdc />} />
             <Route path="/nlnc" element={<Nwdc />} />
             <Route path="/ncpc" element={<Nwdc />} />
+            <Route path="/communities/:id" element={<CommunitiesPage />} />
           </Routes>
         </div>
       </div>
