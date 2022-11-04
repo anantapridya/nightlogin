@@ -7,6 +7,7 @@ import logoNwdc from "../assets/images/imgComunities/Nwdc/Logo.svg";
 import projectNwdc from "../assets/images/imgComunities/Nwdc/Project.svg";
 import bg2Nwdc from "../assets/images/imgComunities/Nwdc/Bg2.svg";
 import bg3Nwdc from "../assets/images/imgComunities/Nwdc/Bg3.svg";
+import pvpNwdc from "../assets/images/imgComunities/Nwdc/Pvp.svg";
 import photoPNwdc from "../assets/images/imgComunities/Nwdc/PhotoP.svg";
 import photoVpNwdc from "../assets/images/imgComunities/Nwdc/PhotoVp.svg";
 import or1Nwdc from "../assets/images/imgComunities/Nwdc/Orn1.svg";
@@ -17,6 +18,7 @@ import logoNuxc from "../assets/images/imgComunities/Nuxc/Logo.svg";
 import projectNuxc from "../assets/images/imgComunities/Nuxc/Project.svg";
 import bg2Nuxc from "../assets/images/imgComunities/Nuxc/Bg2.svg";
 import bg3Nuxc from "../assets/images/imgComunities/Nuxc/Bg3.svg";
+import pvpNuxc from "../assets/images/imgComunities/Nuxc/Pvp.svg";
 import photoPNuxc from "../assets/images/imgComunities/Nuxc/PhotoP.svg";
 import photoVpNuxc from "../assets/images/imgComunities/Nuxc/PhotoVp.svg";
 // import or1Nuxc from "../assets/images/imgComunities/Nuxc/Orn1.svg";
@@ -27,6 +29,7 @@ import logoNcpc from "../assets/images/imgComunities/Ncpc/Logo.svg";
 import projectNcpc from "../assets/images/imgComunities/Ncpc/Project.svg";
 import bg2Ncpc from "../assets/images/imgComunities/Ncpc/Bg2.svg";
 import bg3Ncpc from "../assets/images/imgComunities/Ncpc/Bg3.svg";
+import pvpNcpc from "../assets/images/imgComunities/Ncpc/Pvp.svg";
 import photoPNcpc from "../assets/images/imgComunities/Ncpc/PhotoP.svg";
 import photoVpNcpc from "../assets/images/imgComunities/Ncpc/PhotoVp.svg";
 // import or1Ncpc from "../assets/images/imgComunities/Ncpc/Orn1.svg";
@@ -37,6 +40,7 @@ import logoNlnc from "../assets/images/imgComunities/Nlnc/Logo.svg";
 import projectNlnc from "../assets/images/imgComunities/Nlnc/Project.svg";
 import bg2Nlnc from "../assets/images/imgComunities/Nlnc/Bg2.svg";
 import bg3Nlnc from "../assets/images/imgComunities/Nlnc/Bg3.svg";
+import pvpNlnc from "../assets/images/imgComunities/Nlnc/Pvp.svg";
 import photoPNlnc from "../assets/images/imgComunities/Nlnc/PhotoP.svg";
 import photoVpNlnc from "../assets/images/imgComunities/Nlnc/PhotoVp.svg";
 // import or1Nlnc from "../assets/images/imgComunities/Nlnc/Orn1.svg";
@@ -47,6 +51,7 @@ import logoNddc from "../assets/images/imgComunities/Nddc/Logo.svg";
 import projectNddc from "../assets/images/imgComunities/Nddc/Project.svg";
 import bg2Nddc from "../assets/images/imgComunities/Nddc/Bg2.svg";
 import bg3Nddc from "../assets/images/imgComunities/Nddc/Bg3.svg";
+import pvpNddc from "../assets/images/imgComunities/Nddc/Pvp.svg";
 import photoPNddc from "../assets/images/imgComunities/Nddc/PhotoP.svg";
 import photoVpNddc from "../assets/images/imgComunities/Nddc/PhotoVp.svg";
 // import or1Nddc from "../assets/images/imgComunities/Nddc/Orn1.svg";
@@ -57,6 +62,7 @@ import logoNadc from "../assets/images/imgComunities/Nadc/Logo.svg";
 import projectNadc from "../assets/images/imgComunities/Nadc/Project.svg";
 import bg2Nadc from "../assets/images/imgComunities/Nadc/Bg2.svg";
 import bg3Nadc from "../assets/images/imgComunities/Nadc/Bg3.svg";
+import pvpNadc from "../assets/images/imgComunities/Nadc/Pvp.svg";
 import photoPNadc from "../assets/images/imgComunities/Nadc/PhotoP.svg";
 import photoVpNadc from "../assets/images/imgComunities/Nadc/PhotoVp.svg";
 // import or1Nadc from "../assets/images/imgComunities/Nadc/Orn1.svg";
@@ -76,6 +82,7 @@ const data = [
     icon: iconNwdc,
     logo: logoNwdc,
     project: projectNwdc,
+    pvp: pvpNwdc,
     bg2: bg2Nwdc,
     bg3: bg3Nwdc,
     photoP: photoPNwdc,
@@ -96,6 +103,7 @@ const data = [
     icon: iconNuxc,
     logo: logoNuxc,
     project: projectNuxc,
+    pvp: pvpNuxc,
     bg2: bg2Nuxc,
     bg3: bg3Nuxc,
     photoP: photoPNuxc,
@@ -116,6 +124,7 @@ const data = [
     icon: iconNcpc,
     logo: logoNcpc,
     project: projectNcpc,
+    pvp: pvpNcpc,
     bg2: bg2Ncpc,
     bg3: bg3Ncpc,
     photoP: photoPNcpc,
@@ -136,6 +145,7 @@ const data = [
     icon: iconNlnc,
     logo: logoNlnc,
     project: projectNlnc,
+    pvp: pvpNlnc,
     bg2: bg2Nlnc,
     bg3: bg3Nlnc,
     photoP: photoPNlnc,
@@ -147,7 +157,6 @@ const data = [
     id: 5,
     path: "NDDC",
     title: "NIGHT LOGIN DATA SCIENCE AND \nDATA ANALYTIC COMMUNITY",
-
     desc: "Komunitas NDDC (Nightlogin Data Science and Data Analytic Community)  merupakan komunitas bagi mahasiswa yang menyenangi ataupun ingin menggeluti data dan analytics.",
     pName: "KIM MINJI",
     vpName: "KIM MINJI",
@@ -157,6 +166,7 @@ const data = [
     icon: iconNddc,
     logo: logoNddc,
     project: projectNddc,
+    pvp: pvpNddc,
     bg2: bg2Nddc,
     bg3: bg3Nddc,
     photoP: photoPNddc,
@@ -177,6 +187,7 @@ const data = [
     icon: iconNadc,
     logo: logoNadc,
     project: projectNadc,
+    pvp: pvpNadc,
     bg2: bg2Nadc,
     bg3: bg3Nadc,
     photoP: photoPNadc,

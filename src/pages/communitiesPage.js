@@ -63,8 +63,8 @@ const CommunitiesPage = () => {
 
             <div className="grid mt-[40px]">
               <img
-                src={fPage.Pvp}
-                className="justify-self-center w-[200px] xl:w-auto md:w-[300px]"
+                src={fPage.pvp}
+                className="justify-self-center w-[250px] xl:w-auto md:w-[300px]"
               ></img>
             </div>
 
