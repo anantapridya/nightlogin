@@ -1,14 +1,10 @@
 import React, { useState } from "react";
 import communitiesPage from "../components/commPagesData";
 import { useHistory, useParams } from "react-router-dom";
-
-import homeleft from "../assets/images/btmhomeleft.svg";
-import homeright from "../assets/images/btmhomeright.svg";
 import Footer from "../components/footer";
 
 const CommunitiesPage = () => {
   const { id } = useParams();
-  console.log(id);
   const [pageDatas, setPageDatas] = useState(communitiesPage);
 
   return (
