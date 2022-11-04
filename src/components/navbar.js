@@ -2,8 +2,11 @@ import React, { useState } from "react";
 import logo from "../assets/images/logoNL.svg";
 import { Dropdown, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import communitiesPage from "../components/commPagesData";
 
 export default function Navbar() {
+  const [pageDatas, setPageDatas] = useState(communitiesPage);
+
   return (
     <nav className="flex bg-[#242424] justify-between h-[97px] px-[60px] items-center w-full">
       <img src={logo} className="w-[66.71px]"></img>
@@ -24,54 +27,16 @@ export default function Navbar() {
           title="Community"
           className="text-white font-semibold font-poppins text-[16px]"
         >
-          <NavDropdown.Item>
-            <Link
-              to="/nwdc"
-              className="no-underline text-black font-poppins font-semibold text-[16px]"
-            >
-              NWDC
-            </Link>
-          </NavDropdown.Item>
-          <NavDropdown.Item>
-            <Link
-              to="/nuxc"
-              className="no-underline text-black font-poppins font-semibold text-[16px]"
-            >
-              NUXC
-            </Link>
-          </NavDropdown.Item>
-          <NavDropdown.Item>
-            <Link
-              to="/nadc"
-              className="no-underline text-black font-poppins font-semibold text-[16px]"
-            >
-              NADC
-            </Link>
-          </NavDropdown.Item>
-          <NavDropdown.Item>
-            <Link
-              to="/nddc"
-              className="no-underline text-black font-poppins font-semibold text-[16px]"
-            >
-              NDDC
-            </Link>
-          </NavDropdown.Item>
-          <NavDropdown.Item>
-            <Link
-              to="/nlnc"
-              className="no-underline text-black font-poppins font-semibold text-[16px]"
-            >
-              NLNC
-            </Link>
-          </NavDropdown.Item>
-          <NavDropdown.Item>
-            <Link
-              to="/ncpc"
-              className="no-underline text-black font-poppins font-semibold text-[16px]"
-            >
-              NCPC
-            </Link>
-          </NavDropdown.Item>
+          {pageDatas.map((page) => (
+            <NavDropdown.Item key={page.id}>
+              <Link
+                to={`/communities/${page.path}`}
+                className="no-underline text-black font-poppins font-semibold text-[16px]"
+              >
+                {page.path}
+              </Link>
+            </NavDropdown.Item>
+          ))}
         </NavDropdown>
 
         <Link

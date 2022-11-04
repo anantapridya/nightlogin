@@ -4,11 +4,11 @@ import logoNwdc from "../assets/images/imgComunities/logoNwdc.svg";
 import projectNwdc from "../assets/images/imgComunities/projectNwdc.svg";
 import bg2Nwdc from "../assets/images/imgComunities/bg2Nwdc.svg";
 import bg3Nwdc from "../assets/images/imgComunities/bg3Nwdc.svg";
-import PvpNwdc from "../assets/images/imgComunities/PvpNwdc.svg";
-import photo from "../assets/images/imgComunities/photo.svg";
+import pVpNwdc from "../assets/images/imgComunities/PvpNwdc.svg";
+import photoP from "../assets/images/imgComunities/photoP.svg";
+import photoVp from "../assets/images/imgComunities/photoVp.svg";
 import orn1 from "../assets/images/imgComunities/orn1Nwdc.svg";
 import orn2 from "../assets/images/imgComunities/orn2Nwdc.svg";
-
 import homeleft from "../assets/images/btmhomeleft.svg";
 import homeright from "../assets/images/btmhomeright.svg";
 import Footer from "../components/footer";
@@ -59,7 +59,7 @@ const Nwdc = () => {
 
       <div className="grid mt-[40px]">
         <img
-          src={PvpNwdc}
+          src={pVpNwdc}
           className="justify-self-center w-[200px] xl:w-auto md:w-[300px]"
         ></img>
       </div>
@@ -68,7 +68,7 @@ const Nwdc = () => {
         <div className="grid grid-cols-1 gap-y-[50px] place-items-center max-w-[1250px] md:grid-cols-2 md:gap-x-[57px]">
           <article className="flex flex-col items-center bg-[#2E2E2E] px-[30px] justify-between content-between gap-y-[50px] pb-[40px]  h-[330px] rounded-[47px] w-[300px]">
             <img
-              src={photo}
+              src={photoP}
               alt="photo"
               className="justify-self-center w-[140px] xl:w-auto md:w-[170px] pt-[30px]"
             />
@@ -84,7 +84,7 @@ const Nwdc = () => {
 
           <article className="flex flex-col items-center bg-[#2E2E2E] px-[30px] justify-between content-between gap-y-[50px] pb-[40px]  h-[330px] rounded-[47px] w-[300px]">
             <img
-              src={photo}
+              src={photoVp}
               alt="photo"
               className="justify-self-center w-[140px] xl:w-auto md:w-[170px] pt-[30px]"
             />
