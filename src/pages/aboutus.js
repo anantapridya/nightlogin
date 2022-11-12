@@ -12,17 +12,17 @@ export default function AboutUs() {
   return (
     <>
       <img
-        src={home1}
+        src={home1} alt=""
         className="inline-flex w-[200px] xl:w-auto md:w-[300px]"
       ></img>
       <div className="flex flex-col items-center mx-[20px] my-[50px] justify-center md:flex-row md:justify-center md:ml-[90px]">
         <img
-          src={nlred}
+          src={nlred} alt=""
           className="w-[200px] mb-[50px] md:w-[250px] md:mb-0"
         ></img>
         <div className="justify-center flex flex-col md:ml-[5%]">
           <div className="">
-            <img src={aboutus} className="w-[250px] md:w-auto"></img>
+            <img src={aboutus} alt="" className="w-[250px] md:w-auto"></img>
             <h5 className="font-poppins font-bold text-[40px] xl:text-[64px]">
               WHO WE ARE?
             </h5>
@@ -38,7 +38,7 @@ export default function AboutUs() {
       </div>
 
       <div className="flex-row-reverse flex mt-[120px] mr-[20px] md:mr-[100px] ">
-        <img src={ourteams} className="w-[250px] md:w-auto"></img>
+        <img src={ourteams} alt="" className="w-[250px] md:w-auto"></img>
       </div>
 
       <div className="flex justify-center bg-[#D62340] mx-[10px] md:mx-[100px] rounded-[60px] my-[50px]">
@@ -48,8 +48,8 @@ export default function AboutUs() {
       </div>
 
       <div className="grid justify-center gap-y-[30px]  md:flex gap-x-[70px]">
-        <img src={imgAboutUs} className="w-[150px] md:w-auto"></img>
-        <img src={imgAboutUs} className="w-[150px] md:w-auto"></img>
+        <img src={imgAboutUs} alt="" className="w-[150px] md:w-auto"></img>
+        <img src={imgAboutUs} alt="" className="w-[150px] md:w-auto"></img>
       </div>
 
       <div className="flex justify-center bg-[#D62340] mx-[10px] md:mx-[100px] rounded-[60px] my-[50px]">
@@ -58,10 +58,10 @@ export default function AboutUs() {
         </h1>
       </div>
       <div className="grid justify-center gap-y-[30px] md:flex gap-x-[70px] md:flex-wrap md:mx-[100px]">
-        <img src={imgAboutUs} className="w-[150px] md:w-auto"></img>
-        <img src={imgAboutUs} className="w-[150px] md:w-auto"></img>
-        <img src={imgAboutUs} className="w-[150px] md:w-auto"></img>
-        <img src={imgAboutUs} className="w-[150px] md:w-auto"></img>
+        <img src={imgAboutUs} alt="" className="w-[150px] md:w-auto"></img>
+        <img src={imgAboutUs} alt="" className="w-[150px] md:w-auto"></img>
+        <img src={imgAboutUs} alt="" className="w-[150px] md:w-auto"></img>
+        <img src={imgAboutUs} alt="" className="w-[150px] md:w-auto"></img>
       </div>
 
       <div className="flex justify-center bg-[#D62340] mx-[10px] md:mx-[100px] rounded-[60px] my-[50px]">
@@ -70,10 +70,10 @@ export default function AboutUs() {
         </h1>
       </div>
       <div className="grid justify-center gap-y-[30px] md:flex gap-x-[70px] md:flex-wrap md:mx-[100px]">
-        <img src={imgAboutUs} className="w-[150px] md:w-auto"></img>
-        <img src={imgAboutUs} className="w-[150px] md:w-auto"></img>
-        <img src={imgAboutUs} className="w-[150px] md:w-auto"></img>
-        <img src={imgAboutUs} className="w-[150px] md:w-auto"></img>
+        <img src={imgAboutUs} alt="" className="w-[150px] md:w-auto"></img>
+        <img src={imgAboutUs} alt="" className="w-[150px] md:w-auto"></img>
+        <img src={imgAboutUs} alt="" className="w-[150px] md:w-auto"></img>
+        <img src={imgAboutUs} alt="" className="w-[150px] md:w-auto"></img>
       </div>
 
       <div className="flex justify-center bg-[#D62340] mx-[10px] md:mx-[100px] rounded-[60px] my-[50px]">
@@ -82,15 +82,15 @@ export default function AboutUs() {
         </h1>
       </div>
       <div className="grid justify-center gap-y-[30px] md:flex md:flex-wrap gap-x-[70px] md:mx-[100px]">
-        <img src={imgAboutUs} className="w-[150px] md:w-auto"></img>
-        <img src={imgAboutUs} className="w-[150px] md:w-auto"></img>
-        <img src={imgAboutUs} className="w-[150px] md:w-auto"></img>
-        <img src={imgAboutUs} className="w-[150px] md:w-auto"></img>
+        <img src={imgAboutUs} alt="" className="w-[150px] md:w-auto"></img>
+        <img src={imgAboutUs} alt="" className="w-[150px] md:w-auto"></img>
+        <img src={imgAboutUs} alt="" className="w-[150px] md:w-auto"></img>
+        <img src={imgAboutUs} alt="" className="w-[150px] md:w-auto"></img>
       </div>
 
       <div className="flex justify-between mt-[120px] ">
-        <img src={homeleft} className="w-[150px] md:w-[300px] lg:w-auto"></img>
-        <img src={homeright} className="w-[150px] md:w-[300px] lg:w-auto"></img>
+        <img src={homeleft} alt="" className="w-[150px] md:w-[300px] lg:w-auto"></img>
+        <img src={homeright} alt="" className="w-[150px] md:w-[300px] lg:w-auto"></img>
       </div>
 
       <Footer />
