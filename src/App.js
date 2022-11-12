@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Home from "./pages/home";
+import AboutUs from "./pages/aboutus";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CommunitiesPage from "./pages/communitiesPage";
 
@@ -13,7 +14,7 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/aboutUs" element={<Home />} />
+            <Route path="/aboutUs" element={<AboutUs />} />
             <Route path="/communities/:id" element={<CommunitiesPage />} />
           </Routes>
         </div>
