@@ -21,6 +21,17 @@ code {
     monospace;
 }
 
+@media (min-width: 1280px) {
+  .timeline{
+    display: inline!important;
+  }
+}
+@media (min-width: 768px) {
+  .itemnav{
+    display: inline!important;
+  }
+}
+
 .dropdown-toggle::after {
   display: none !important; 
 }
