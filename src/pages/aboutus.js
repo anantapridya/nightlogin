@@ -11,33 +11,37 @@ import Footer from "../components/footer";
 export default function AboutUs() {
   return (
     <>
-      <img
-        src={home1} alt=""
-        className="inline-flex w-[200px] xl:w-auto md:w-[300px]"
-      ></img>
-      <div className="flex flex-col items-center mx-[20px] my-[50px] justify-center md:flex-row md:justify-center md:ml-[90px]">
+      <div className="h-[100vh] grid grid-rows-3">
         <img
-          src={nlred} alt=""
-          className="w-[200px] mb-[50px] md:w-[250px] md:mb-0"
+          src={home1}
+          alt=""
+          className="inline-flex w-[200px] xl:w-auto md:w-[300px]"
         ></img>
-        <div className="justify-center flex flex-col md:ml-[5%]">
-          <div className="">
-            <img src={aboutus} alt="" className="w-[250px] md:w-auto"></img>
-            <h5 className="font-poppins font-bold text-[40px] xl:text-[64px]">
-              WHO WE ARE?
-            </h5>
-            <p className="text-justify font-poppins font-medium text-[13px] mb-6 max-w-[1000px] xl:text-[16px]">
-              Night Login merupakan Badan Semi Otonom (BSO) di DTETI FT UGM yang
-              bergerak di bidang teknologi informasi. BSO ini merupakan wadah
-              bagi mahasiswa DTETI yang memiliki minat di bidang IT untuk
-              mengembangkan kemampuan, kreativitas, inovasi, dan memperluas
-              wawasan terkait bidang-bidang IT.
-            </p>
+        <div className="flex flex-col items-center mx-[20px] justify-center md:flex-row md:justify-center md:ml-[90px]">
+          <img
+            src={nlred}
+            alt=""
+            className="w-[200px] mb-[50px] md:w-[250px] md:mb-0"
+          ></img>
+          <div className="justify-center flex flex-col md:ml-[5%]">
+            <div className="">
+              <img src={aboutus} alt="" className="w-[250px] md:w-auto"></img>
+              <h5 className="font-poppins font-bold text-[40px] xl:text-[64px]">
+                WHO WE ARE?
+              </h5>
+              <p className="text-justify font-poppins font-medium text-[13px] mb-6 max-w-[1000px] xl:text-[16px]">
+                Night Login merupakan Badan Semi Otonom (BSO) di DTETI FT UGM
+                yang bergerak di bidang teknologi informasi. BSO ini merupakan
+                wadah bagi mahasiswa DTETI yang memiliki minat di bidang IT
+                untuk mengembangkan kemampuan, kreativitas, inovasi, dan
+                memperluas wawasan terkait bidang-bidang IT.
+              </p>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="flex-row-reverse flex mt-[120px] mr-[20px] md:mr-[100px] ">
+      <div className="flex-row-reverse flex mr-[20px] md:mr-[100px] ">
         <img src={ourteams} alt="" className="w-[250px] md:w-auto"></img>
       </div>
 
@@ -89,8 +93,16 @@ export default function AboutUs() {
       </div>
 
       <div className="flex justify-between mt-[120px] ">
-        <img src={homeleft} alt="" className="w-[150px] md:w-[300px] lg:w-auto"></img>
-        <img src={homeright} alt="" className="w-[150px] md:w-[300px] lg:w-auto"></img>
+        <img
+          src={homeleft}
+          alt=""
+          className="w-[150px] md:w-[300px] lg:w-auto"
+        ></img>
+        <img
+          src={homeright}
+          alt=""
+          className="w-[150px] md:w-[300px] lg:w-auto"
+        ></img>
       </div>
 
       <Footer />
