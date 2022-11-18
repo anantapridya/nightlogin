@@ -21,8 +21,8 @@ import bg3Nuxc from "../assets/images/imgComunities/Nuxc/Bg3.svg";
 import pvpNuxc from "../assets/images/imgComunities/Nuxc/Pvp.svg";
 import photoPNuxc from "../assets/images/imgComunities/Nuxc/PhotoP.svg";
 import photoVpNuxc from "../assets/images/imgComunities/Nuxc/PhotoVp.svg";
-// import or1Nuxc from "../assets/images/imgComunities/Nuxc/Orn1.svg";
-// import or2Nuxc from "../assets/images/imgComunities/Nuxc/Orn2.svg";
+import or1Nuxc from "../assets/images/imgComunities/Nuxc/Orn1.svg";
+import or2Nuxc from "../assets/images/imgComunities/Nuxc/Orn2.svg";
 
 import iconNcpc from "../assets/images/imgComunities/Ncpc/Icon.svg";
 import logoNcpc from "../assets/images/imgComunities/Ncpc/Logo.svg";
@@ -32,8 +32,8 @@ import bg3Ncpc from "../assets/images/imgComunities/Ncpc/Bg3.svg";
 import pvpNcpc from "../assets/images/imgComunities/Ncpc/Pvp.svg";
 import photoPNcpc from "../assets/images/imgComunities/Ncpc/PhotoP.svg";
 import photoVpNcpc from "../assets/images/imgComunities/Ncpc/PhotoVp.svg";
-// import or1Ncpc from "../assets/images/imgComunities/Ncpc/Orn1.svg";
-// import or2Ncpc from "../assets/images/imgComunities/Ncpc/Orn2.svg";
+import or1Ncpc from "../assets/images/imgComunities/Ncpc/Orn1.svg";
+import or2Ncpc from "../assets/images/imgComunities/Ncpc/Orn2.svg";
 
 import iconNlnc from "../assets/images/imgComunities/Nlnc/Icon.svg";
 import logoNlnc from "../assets/images/imgComunities/Nlnc/Logo.svg";
@@ -43,8 +43,8 @@ import bg3Nlnc from "../assets/images/imgComunities/Nlnc/Bg3.svg";
 import pvpNlnc from "../assets/images/imgComunities/Nlnc/Pvp.svg";
 import photoPNlnc from "../assets/images/imgComunities/Nlnc/PhotoP.svg";
 import photoVpNlnc from "../assets/images/imgComunities/Nlnc/PhotoVp.svg";
-// import or1Nlnc from "../assets/images/imgComunities/Nlnc/Orn1.svg";
-// import or2Nlnc from "../assets/images/imgComunities/Nlnc/Orn2.svg";
+import or1Nlnc from "../assets/images/imgComunities/Nlnc/Orn1.svg";
+import or2Nlnc from "../assets/images/imgComunities/Nlnc/Orn2.svg";
 
 import iconNddc from "../assets/images/imgComunities/Nddc/Icon.svg";
 import logoNddc from "../assets/images/imgComunities/Nddc/Logo.svg";
@@ -54,8 +54,8 @@ import bg3Nddc from "../assets/images/imgComunities/Nddc/Bg3.svg";
 import pvpNddc from "../assets/images/imgComunities/Nddc/Pvp.svg";
 import photoPNddc from "../assets/images/imgComunities/Nddc/PhotoP.svg";
 import photoVpNddc from "../assets/images/imgComunities/Nddc/PhotoVp.svg";
-// import or1Nddc from "../assets/images/imgComunities/Nddc/Orn1.svg";
-// import or2Nddc from "../assets/images/imgComunities/Nddc/Orn2.svg";
+import or1Nddc from "../assets/images/imgComunities/Nddc/Orn1.svg";
+import or2Nddc from "../assets/images/imgComunities/Nddc/Orn2.svg";
 
 import iconNadc from "../assets/images/imgComunities/Nadc/Icon.svg";
 import logoNadc from "../assets/images/imgComunities/Nadc/Logo.svg";
@@ -65,8 +65,8 @@ import bg3Nadc from "../assets/images/imgComunities/Nadc/Bg3.svg";
 import pvpNadc from "../assets/images/imgComunities/Nadc/Pvp.svg";
 import photoPNadc from "../assets/images/imgComunities/Nadc/PhotoP.svg";
 import photoVpNadc from "../assets/images/imgComunities/Nadc/PhotoVp.svg";
-// import or1Nadc from "../assets/images/imgComunities/Nadc/Orn1.svg";
-// import or2Nadc from "../assets/images/imgComunities/Nadc/Orn2.svg";
+import or1Nadc from "../assets/images/imgComunities/Nadc/Orn1.svg";
+import or2Nadc from "../assets/images/imgComunities/Nadc/Orn2.svg";
 
 const data = [
   {
@@ -108,8 +108,8 @@ const data = [
     bg3: bg3Nuxc,
     photoP: photoPNuxc,
     photoVp: photoVpNuxc,
-    // or1: or1Nuxc,
-    // or2: or2Nuxc,
+    or1: or1Nuxc,
+    or2: or2Nuxc,
   },
   {
     id: 3,
@@ -129,8 +129,8 @@ const data = [
     bg3: bg3Ncpc,
     photoP: photoPNcpc,
     photoVp: photoVpNcpc,
-    // or1: or1Ncpc,
-    // or2: or2Ncpc,
+    or1: or1Ncpc,
+    or2: or2Ncpc,
   },
   {
     id: 4,
@@ -150,8 +150,8 @@ const data = [
     bg3: bg3Nlnc,
     photoP: photoPNlnc,
     photoVp: photoVpNlnc,
-    // or1: or1Nlnc,
-    // or2: or2Nlnc,
+    or1: or1Nlnc,
+    or2: or2Nlnc,
   },
   {
     id: 5,
@@ -171,8 +171,8 @@ const data = [
     bg3: bg3Nddc,
     photoP: photoPNddc,
     photoVp: photoVpNddc,
-    // or1: or1Nddc,
-    // or2: or2Nddc,
+    or1: or1Nddc,
+    or2: or2Nddc,
   },
   {
     id: 6,
@@ -192,8 +192,8 @@ const data = [
     bg3: bg3Nadc,
     photoP: photoPNadc,
     photoVp: photoVpNadc,
-    // or1: or1Nadc,
-    // or2: or2Nadc,
+    or1: or1Nadc,
+    or2: or2Nadc,
   },
 ];
 

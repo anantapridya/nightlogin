@@ -4,6 +4,7 @@ import { Dropdown, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import communitiesPage from "../components/commPagesData";
 import { ChevronUpIcon } from "@heroicons/react/20/solid";
+import { VscTriangleDown } from "react-icons/vsc";
 
 export default function Navbar() {
   const [pageDatas, setPageDatas] = useState(communitiesPage);
@@ -27,21 +28,24 @@ export default function Navbar() {
           >
             About Us
           </Link>
-          <NavDropdown
-            title="Community"
-            className="text-white font-semibold font-poppins text-[16px] hidden itemnav"
-          >
-            {pageDatas.map((page) => (
-              <NavDropdown.Item key={page.id}>
-                <Link
-                  to={`/communities/${page.path}`}
-                  className="no-underline text-black font-poppins font-semibold text-[16px]"
-                >
-                  {page.path}
-                </Link>
-              </NavDropdown.Item>
-            ))}
-          </NavDropdown>
+          <div className="flex items-center gap-1">
+            <NavDropdown
+              title="Community"
+              className="text-white font-semibold font-poppins text-[16px] hidden itemnav"
+            >
+              {pageDatas.map((page) => (
+                <NavDropdown.Item key={page.id}>
+                  <Link
+                    to={`/communities/${page.path}`}
+                    className="no-underline text-black font-poppins font-semibold text-[16px]"
+                  >
+                    {page.path}
+                  </Link>
+                </NavDropdown.Item>
+              ))}
+            </NavDropdown>
+            <VscTriangleDown className="text-white text-[18px] hidden itemnav" />
+          </div>
           <Link
             to="/joinUs"
             className="text-white no-underline font-poppins font-semibold py-3 px-6 rounded-[41px] bg-[#D62340] text-[16px] hidden itemnav"
@@ -77,7 +81,10 @@ export default function Navbar() {
         >
           Home
         </a>
-        <a className="text-white no-underline font-poppins font-semibold text-[16px] mb-[10px]" href="/aboutus">
+        <a
+          className="text-white no-underline font-poppins font-semibold text-[16px] mb-[10px]"
+          href="/aboutus"
+        >
           About Us
         </a>
         <a
@@ -92,8 +99,7 @@ export default function Navbar() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className={`${
-                isCommClick ? "rotate-90 transform" : ""} w-6 h-6`}
+              className={`${isCommClick ? "rotate-90 transform" : ""} w-6 h-6`}
             >
               <path
                 strokeLinecap="round"
@@ -108,27 +114,48 @@ export default function Navbar() {
             isCommClick ? "block md:hidden" : "hidden"
           } grid grid-cols-1 ml-10`}
         >
-          <a className="text-white no-underline font-poppins font-semibold text-[16px] mb-[10px]" href="/communities/NWDC">
+          <a
+            className="text-white no-underline font-poppins font-semibold text-[16px] mb-[10px]"
+            href="/communities/NWDC"
+          >
             NWDC
           </a>
-          <a className="text-white no-underline font-poppins font-semibold text-[16px] mb-[10px]" href="/communities/NUXC">
+          <a
+            className="text-white no-underline font-poppins font-semibold text-[16px] mb-[10px]"
+            href="/communities/NUXC"
+          >
             NUXC
           </a>
-          <a className="text-white no-underline font-poppins font-semibold text-[16px] mb-[10px]" href="/communities/NCPC">
+          <a
+            className="text-white no-underline font-poppins font-semibold text-[16px] mb-[10px]"
+            href="/communities/NCPC"
+          >
             NCPC
           </a>
-          <a className="text-white no-underline font-poppins font-semibold text-[16px] mb-[10px]" href="/communities/NLNC">
+          <a
+            className="text-white no-underline font-poppins font-semibold text-[16px] mb-[10px]"
+            href="/communities/NLNC"
+          >
             NLNC
           </a>
-          <a className="text-white no-underline font-poppins font-semibold text-[16px] mb-[10px]" href="/communities/NDDC">
+          <a
+            className="text-white no-underline font-poppins font-semibold text-[16px] mb-[10px]"
+            href="/communities/NDDC"
+          >
             NDDC
           </a>
-          <a className="text-white no-underline font-poppins font-semibold text-[16px] mb-[10px]" href="/communities/NADC">
+          <a
+            className="text-white no-underline font-poppins font-semibold text-[16px] mb-[10px]"
+            href="/communities/NADC"
+          >
             NADC
           </a>
         </div>
         <div className="mt-[20px]">
-          <a className="text-white no-underline font-poppins font-semibold text-[16px] mb-[10px] py-3 px-6 rounded-[41px] bg-[#D62340]" href="/joinus">
+          <a
+            className="text-white no-underline font-poppins font-semibold text-[16px] mb-[10px] py-3 px-6 rounded-[41px] bg-[#D62340]"
+            href="/joinus"
+          >
             Join Us
           </a>
         </div>

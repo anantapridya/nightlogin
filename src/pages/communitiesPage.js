@@ -70,37 +70,45 @@ const CommunitiesPage = () => {
 
             <div className="flex justify-center my-[40px] xl:my-[80px]">
               <div className="grid grid-cols-1 gap-y-[50px] place-items-center max-w-[1250px] md:grid-cols-2 md:gap-x-[57px]">
-                <article className="flex flex-col items-center bg-[#2E2E2E] px-[30px] justify-between content-between gap-y-[50px] pb-[40px]  h-[330px] rounded-[47px] w-[300px]">
-                  <img
-                    src={fPage.photoP}
-                    alt="photo"
-                    className="justify-self-center w-[140px] xl:w-auto md:w-[170px] pt-[30px]"
-                  />
-                  <div>
-                    <p className="font-poppins font-bold px-[41px] py-[11px] mt-[-60px] text-white text-[20px] text-center mb-[0px]">
-                      {fPage.pName}
-                    </p>
-                    <p className="text-white text-center font-poppins font-semibold text-[14px]">
-                      President
-                    </p>
-                  </div>
-                </article>
+                <div className="flex flex-col justify-center items-center">
+                  <img src={fPage.or1} alt="oranamen 1" className="w-[100px]" />
+                  <article className="flex flex-col items-center bg-[#2E2E2E] px-[30px] justify-between content-between gap-y-[50px] pb-[40px]  h-[330px] rounded-[47px] w-[300px]">
+                    <img
+                      src={fPage.photoP}
+                      alt="photo"
+                      className="justify-self-center w-[140px] xl:w-auto md:w-[170px] pt-[30px]"
+                    />
+                    <div>
+                      <p className="font-poppins font-bold px-[41px] py-[11px] mt-[-60px] text-white text-[20px] text-center mb-[0px]">
+                        {fPage.pName}
+                      </p>
+                      <p className="text-white text-center font-poppins font-semibold text-[14px]">
+                        President
+                      </p>
+                    </div>
+                  </article>
+                  <img src={fPage.or2} alt="oranamen 2" className="w-[50px]" />
+                </div>
 
-                <article className="flex flex-col items-center bg-[#2E2E2E] px-[30px] justify-between content-between gap-y-[50px] pb-[40px]  h-[330px] rounded-[47px] w-[300px]">
-                  <img
-                    src={fPage.photoVp}
-                    alt="photo"
-                    className="justify-self-center w-[140px] xl:w-auto md:w-[170px] pt-[30px]"
-                  />
-                  <div>
-                    <p className="font-poppins font-bold px-[41px] py-[11px] mt-[-60px] text-white text-[20px] text-center mb-[0px]">
-                      {fPage.vpName}
-                    </p>
-                    <p className="text-white text-center font-poppins font-semibold text-[14px]">
-                      Vice President
-                    </p>
-                  </div>
-                </article>
+                <div className="flex flex-col justify-center items-center">
+                  <img src={fPage.or1} alt="oranamen 1" className="w-[100px]" />
+                  <article className="flex flex-col items-center bg-[#2E2E2E] px-[30px] justify-between content-between gap-y-[50px] pb-[40px]  h-[330px] rounded-[47px] w-[300px]">
+                    <img
+                      src={fPage.photoVp}
+                      alt="photo"
+                      className="justify-self-center w-[140px] xl:w-auto md:w-[170px] pt-[30px]"
+                    />
+                    <div>
+                      <p className="font-poppins font-bold px-[41px] py-[11px] mt-[-60px] text-white text-[20px] text-center mb-[0px]">
+                        {fPage.vpName}
+                      </p>
+                      <p className="text-white text-center font-poppins font-semibold text-[14px]">
+                        Vice President
+                      </p>
+                    </div>
+                  </article>
+                  <img src={fPage.or2} alt="oranamen 1" className="w-[50px]" />
+                </div>
               </div>
             </div>
 
