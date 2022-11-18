@@ -48,7 +48,7 @@ export default function FAQ() {
                   } h-12 w-12 text-white`}
                 />
               </Disclosure.Button>
-              <Disclosure.Panel className="px-5 pt-10 pb-2 text-black text-[16px] font-poppins bg-white text-justify">
+              <Disclosure.Panel className="px-5 pt-10 pb-2 text-black text-[12px] md:text-[16px] font-poppins bg-white text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper tincidunt aliquam habitant a malesuada. Non eget congue nec sit egestas. Tincidunt sed donec tellus blandit gravida. Cras pharetra consectetur nec ullamcorper ornare vel amet. Viverra enim amet, orci nunc cursus. Erat pellentesque mi imperdiet tristique sit fringilla nulla diam, vulputate. Et morbi nunc, dictum ut egestas et dolor, sed malesuada.
               </Disclosure.Panel>
             </>
@@ -65,7 +65,7 @@ export default function FAQ() {
                   } h-12 w-12 text-white`}
                 />
               </Disclosure.Button>
-              <Disclosure.Panel className="px-5 pt-10 pb-2 text-black text-[16px] font-poppins bg-white text-justify">
+              <Disclosure.Panel className="px-5 pt-10 pb-2 text-black text-[12px] md:text-[16px] font-poppins bg-white text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper tincidunt aliquam habitant a malesuada. Non eget congue nec sit egestas. Tincidunt sed donec tellus blandit gravida. Cras pharetra consectetur nec ullamcorper ornare vel amet. Viverra enim amet, orci nunc cursus. Erat pellentesque mi imperdiet tristique sit fringilla nulla diam, vulputate. Et morbi nunc, dictum ut egestas et dolor, sed malesuada.
               </Disclosure.Panel>
             </>
@@ -82,7 +82,7 @@ export default function FAQ() {
                   } h-12 w-12 text-white`}
                 />
               </Disclosure.Button>
-              <Disclosure.Panel className="px-5 pt-10 pb-2 text-black text-[16px] font-poppins bg-white text-justify">
+              <Disclosure.Panel className="px-5 pt-10 pb-2 text-black text-[12px] md:text-[16px] font-poppins bg-white text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper tincidunt aliquam habitant a malesuada. Non eget congue nec sit egestas. Tincidunt sed donec tellus blandit gravida. Cras pharetra consectetur nec ullamcorper ornare vel amet. Viverra enim amet, orci nunc cursus. Erat pellentesque mi imperdiet tristique sit fringilla nulla diam, vulputate. Et morbi nunc, dictum ut egestas et dolor, sed malesuada.
               </Disclosure.Panel>
             </>
@@ -99,7 +99,7 @@ export default function FAQ() {
                   } h-12 w-12 text-white`}
                 />
               </Disclosure.Button>
-              <Disclosure.Panel className="px-5 pt-10 pb-2 text-black text-[16px] font-poppins bg-white text-justify">
+              <Disclosure.Panel className="px-5 pt-10 pb-2 text-black text-[12px] md:text-[16px] font-poppins bg-white text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper tincidunt aliquam habitant a malesuada. Non eget congue nec sit egestas. Tincidunt sed donec tellus blandit gravida. Cras pharetra consectetur nec ullamcorper ornare vel amet. Viverra enim amet, orci nunc cursus. Erat pellentesque mi imperdiet tristique sit fringilla nulla diam, vulputate. Et morbi nunc, dictum ut egestas et dolor, sed malesuada.
               </Disclosure.Panel>
             </>
@@ -116,7 +116,7 @@ export default function FAQ() {
                   } h-12 w-12 text-white`}
                 />
               </Disclosure.Button>
-              <Disclosure.Panel className="px-5 pt-10 pb-5 text-black text-[16px] font-poppins text-justify">
+              <Disclosure.Panel className="px-5 pt-10 pb-5 text-black text-[12px] md:text-[16px] font-poppins text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper tincidunt aliquam habitant a malesuada. Non eget congue nec sit egestas. Tincidunt sed donec tellus blandit gravida. Cras pharetra consectetur nec ullamcorper ornare vel amet. Viverra enim amet, orci nunc cursus. Erat pellentesque mi imperdiet tristique sit fringilla nulla diam, vulputate. Et morbi nunc, dictum ut egestas et dolor, sed malesuada.
               </Disclosure.Panel>
             </>
