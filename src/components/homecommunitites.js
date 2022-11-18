@@ -4,7 +4,7 @@ const HomeCommunities = ({ items }) => {
   return (
     <div className="grid grid-cols-1 gap-y-[50px] place-items-center max-w-[1250px] md:grid-cols-2 xl:grid-cols-3 xl:gap-x-[57px] md:gap-x-[57px]">
       {items.map((community) => {
-        const { id, title, desc } = community;
+        const { id, title, desc, to } = community;
         return (
           <arcticle
             key={id}
@@ -19,7 +19,7 @@ const HomeCommunities = ({ items }) => {
               </p>
             </div>
             <div>
-              <a className="bg-white no-underline text-black font-poppins px-[25px] py-[10px] rounded-[31px] font-semibold text-[13px]">
+              <a className="bg-white no-underline text-black font-poppins px-[25px] py-[10px] rounded-[31px] font-semibold text-[13px]" href={to}>
                 READ MORE
               </a>
             </div>
