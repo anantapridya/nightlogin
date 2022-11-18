@@ -5,6 +5,7 @@ import Home from "./pages/home";
 import AboutUs from "./pages/aboutus";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CommunitiesPage from "./pages/communitiesPage";
+import JoinUs from "./pages/joinus";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/aboutUs" element={<AboutUs />} />
             <Route path="/communities/:id" element={<CommunitiesPage />} />
+            <Route path="/joinUs" element={<JoinUs />} />
           </Routes>
         </div>
       </div>

@@ -7,6 +7,10 @@ module.exports = {
     extend: {
       fontFamily:{
         'poppins': ['Poppins', 'sans-serif']
+      },
+      colors:{
+        "merah": "#D62340",
+        "hitam": "#2E2E2E"
       }
     },
   },
